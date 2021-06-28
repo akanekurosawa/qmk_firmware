@@ -29,3 +29,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
+
+#define RGBLIGHT_DEFAULT_VAL 0
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_GRADIENT 
+
+/* Mouse Keys - Kinetic Mode */
+#define MK_KINETIC_SPEED
+#define MOUSEKEY_DELAY 8
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MOVE_DELTA 1
+#define MOUSEKEY_INITIAL_SPEED 5
+#define MOUSEKEY_BASE_SPEED 50
+#define MOUSEKEY_DECELERATED_SPEED 25
+#define MOUSEKEY_ACCELERATED_SPEED 125
