@@ -34,3 +34,12 @@
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
 
+/* Mouse Keys - Kinetic Mode */
+#define MK_KINETIC_SPEED
+#define MOUSEKEY_DELAY 8
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MOVE_DELTA 1
+#define MOUSEKEY_INITIAL_SPEED 5
+#define MOUSEKEY_BASE_SPEED 50
+#define MOUSEKEY_DECELERATED_SPEED 25
+#define MOUSEKEY_ACCELERATED_SPEED 125
